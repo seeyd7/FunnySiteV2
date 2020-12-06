@@ -100,7 +100,7 @@
       position: fixed;
       height: 100vh;
       width: 75%;
-      background-color: #353b48;
+      background-color: rgb(19, 18, 18);
       top: 0;
       right: -100%;
       max-width: 400px;
