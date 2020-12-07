@@ -115,6 +115,8 @@ nav{
     right: 5%;
   }
   .navbar-menu.active{
+    display: flex;
+    flex-direction: column;
     right: 0;
   }
   .menu-toggler.active span:nth-child(1){
