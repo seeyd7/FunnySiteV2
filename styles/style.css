@@ -133,7 +133,7 @@ nav{
   }
   .dropdown-container {
     background: transparent !important;
-    line-height: normal !important;
+    line-height: 0 !important;
     padding-left: 10% !important;
   }
 }
