@@ -93,9 +93,6 @@ nav{
   .menu-toggler{
     display: block;
   }
-  nav {
-    position: fixed;
-  }
   .navbar-menu{
     position: fixed;
     height: 100vh;
@@ -135,6 +132,12 @@ nav{
     background: transparent !important;
     line-height: 0 !important;
     padding-left: 10% !important;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .dropdown-container {
+    position: absolute !important;
+    width: 40% !important;
   }
 }
 /* Menu */
@@ -318,10 +321,8 @@ aside {
   text-decoration: none;
   font-size: 25px;
   color: white;
-  display: absolute;
   border: none;
   background: none;
-  width: 100%;
   text-align: left;
   cursor: pointer;
   outline: none;
@@ -340,12 +341,12 @@ aside {
 .dropdown-container {
   display: none;
   padding-left: 10%;
-  position: absolute;
   padding: 0;
   flex-direction: column;
   background-color: black;
-  width: 40%;
   line-height: 3;
+  width: 100%;
+  position: relative;
 }
 .color {
   font-size: 23px !important;
