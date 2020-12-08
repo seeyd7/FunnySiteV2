@@ -131,6 +131,7 @@ nav{
     background-color: white;
   }
   .dropdown-content {
+    min-width: 0 !important;
     right: 0 !important;
     background-color: rgb(19, 18, 18) !important;
     position: relative !important;
