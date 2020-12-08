@@ -82,7 +82,7 @@ nav{
 .navbar-menu a:hover{
   color:#3498db;
 }
-@media screen and (max-width: 1425px){
+@media screen and (max-width: 1310px){
   .menu-toggler{
     display: block;
   }
@@ -334,10 +334,11 @@ aside {
 }
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
 }
 .dropdown-content {
-  right: -27%;
+  top: 100%;
   display: none;
   position: absolute;
   background-color: black;
