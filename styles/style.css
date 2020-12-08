@@ -274,7 +274,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(41, 40, 40);
+  background-color: #264763;
 }
 .photo {
   display: flex;
@@ -282,7 +282,7 @@ main {
   align-items: center;
 }
 .article-new {
-  background-color: rgb(41, 40, 40);
+  background-color: #264763;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -313,8 +313,9 @@ main {
   color: white;
 }
 aside {
-  border: 1px black solid;
-  background-color: rgb(63, 59, 59);
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  background-color: #496983;
   min-height: 100vh;
   height: 100%;
   width: 30%;
