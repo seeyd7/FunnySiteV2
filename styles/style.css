@@ -74,7 +74,7 @@ nav{
 }
 .navbar-menu a{
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   margin-left: 30px;
   transition: .2s linear;
@@ -82,7 +82,7 @@ nav{
 .navbar-menu a:hover{
   color:#3498db;
 }
-@media screen and (max-width: 1310px){
+@media screen and (max-width: 1130px){
   .menu-toggler{
     display: block;
   }
@@ -325,7 +325,7 @@ aside {
 .dropbtn {
   background-color: transparent;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   border: none;
   cursor: pointer;
   transition: .2s linear;
