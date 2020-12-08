@@ -310,7 +310,7 @@ main {
   border: 0;
   cursor: pointer;
   height: 25px;
-  width: 70px;
+  width: 110px;
   color: white;
 }
 aside {
@@ -403,14 +403,6 @@ aside {
     transition: 2s;
     font-size: 26px;
   }
-  .photo {
-    flex-direction: column;
-  }
-  .photo-sidebar {
-    flex-direction: row;
-    width: 90%;
-    height: 10vh;
-  }
   .article-new img {
     width: 125%;
   }
@@ -427,6 +419,14 @@ aside {
   }
   .article-new {
     width: 80%;
+  }
+  .photo {
+    flex-direction: column;
+  }
+  .photo-sidebar {
+    flex-direction: row;
+    width: 90%;
+    height: 10vh;
   }
 }
 @media screen and (max-width: 650px) {
