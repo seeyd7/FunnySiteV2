@@ -429,7 +429,7 @@ aside {
 }
 @media screen and (max-width: 650px) {
   .info p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .portfolio-slider {
     font-size: 15px;
@@ -441,17 +441,17 @@ aside {
 }
 @media screen and (max-width: 300px) {
   .info p {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 @media only screen and (width:320px){
   .info p {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 1024px) {
   .info p {
-    font-size: 23px;
+    font-size: 26px;
   }
 }
 @media screen and (max-width: 380px) {
