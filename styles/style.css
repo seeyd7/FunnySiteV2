@@ -355,10 +355,10 @@ aside {
 .dropdown-content a:hover {
   color: #B53471 !important;
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover > .dropdown-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .color {
   color: white !important;
