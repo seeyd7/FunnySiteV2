@@ -232,6 +232,7 @@ article {
 .info h1, .info p, .info a {
   margin: 0;
   margin: 2%;
+  text-align: center;
 }
 .info a {
   justify-content: center;
@@ -429,7 +430,7 @@ aside {
 }
 @media screen and (max-width: 650px) {
   .info p {
-    font-size: 14px;
+    font-size: 19px;
   }
   .portfolio-slider {
     font-size: 15px;
@@ -441,17 +442,17 @@ aside {
 }
 @media screen and (max-width: 300px) {
   .info p {
-    font-size: 13px;
+    font-size: 18px;
   }
 }
 @media only screen and (width:320px){
   .info p {
-    font-size: 13px;
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 1024px) {
   .info p {
-    font-size: 26px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 380px) {
