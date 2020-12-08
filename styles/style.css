@@ -490,10 +490,11 @@ hr {
 }
 i {
   color: white;
-  transition: 0.4s;
+  transition: 0.3s linear;
   cursor: pointer;
 }
 i:hover {
   color: #3498db;
+  transform: scale(1.15);
 }
 /* Footer */
