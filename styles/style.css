@@ -288,7 +288,7 @@ main {
   align-items: center;
   min-height: 100vh;
   height: 100%;
-  width: 60%;
+  width: 50%;
 }
 .article-new img{
   width: 100%;
@@ -318,7 +318,7 @@ aside {
   background-color: #496983;
   min-height: 100vh;
   height: 100%;
-  width: 30%;
+  width: 25%;
 }
 .dropbtn {
   background-color: transparent;
